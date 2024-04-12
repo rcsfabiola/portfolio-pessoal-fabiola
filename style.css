@@ -291,10 +291,11 @@ h2 {
   width: 95%;
   margin: 0 auto;
   margin-top: 15%;
-  line-height: 0px;
+  line-height: 20px;
   color: var(--cor1);
   font-size: 14px;
   font-weight: 900;
+  flex-wrap: wrap;
 }
 
 .descricao-banner {
