@@ -201,7 +201,6 @@ span:hover {
   color: var(--cor6);
   transition: all 0.5s ease;
   text-shadow: 0 0 12px var(--cor5);
-
 }
 
 #container-habilidades {
@@ -255,7 +254,8 @@ h2 {
   width: 100%;
   color: var(--cor0);
   display: flex;
-  overflow-x: auto;
+  /* overflow-x: auto; */
+  justify-content: space-between;
 }
 
 .fundo-banner-projetos {
@@ -275,7 +275,7 @@ h2 {
 }
 
 .img-meus-projetos {
-  width: 93%;
+  width: 96%;
   margin: 0 auto;
   height: 40%;
 }
@@ -284,7 +284,7 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: 3px;
-  margin-top: 5px;
+  margin-top: 3px;
 }
 
 .titulo-banner-projetos {
@@ -323,10 +323,39 @@ button {
   font-size: 10px;
 }
 
+#meus-certificados {
+  width: 90%; 
+}
+
+#fundo-banner-certificados {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+.img-meus-certificados {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  justify-content: space-between;
+}
+
+.img-meus-certificados:hover {
+  box-shadow: white 0px 0px 35px;
+  transition: 0.5s;
+}
+
 #container-formulario {
   background-color: var(--cor0);
   color: var(--cor6);
   border-radius: 1px;
+}
+
+h4 {
+  color: var(--cor5);
 }
 
 .icone-contato {
